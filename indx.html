@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body style="background-color: #d2d6de !important;">
+        <form name="aspnetForm" method="post" action="./studentLogin.aspx" onsubmit="javascript:return WebForm_OnSubmit();" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_cph1_btnLogin')" id="aspnetForm">
+    <div>
+    <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+    <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+    <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+    <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MDI1OTUyNjEPZBYCZg9kFgICAw9kFgQCBw9kFggCDQ8WAh4HVmlzaWJsZWcWAmYPZBYCAgEPFgIeA3NyYwUUaW1hZ2VzL2llc19pY29uMS5wbmdkAhEPZBYCZg9kFgICAQ8QZGQWAWZkAhMPZBYCZg9kFgICAQ8WAh8AZxYCAgUPZBYCZg9kFgICAQ9kFgJmD2QWAgIBD2QWBGYPZBYCZg9kFgICAQ9kFgJmD2QWAgIBDxBkZBYAZAIBD2QWAmYPZBYCAgMPFgIeBVZhbHVlBQMxNDJkAhUPZBYCZg9kFgICAQ8WAh8AaBYCAgQPZBYCZg9kFgICAQ9kFgJmD2QWAgIBD2QWBGYPZBYCZg9kFgICAQ9kFgJmD2QWAgIBDxAPFgYeDURhdGFUZXh0RmllbGQFB0ZpblllYXIeDkRhdGFWYWx1ZUZpZWxkBQlGaW5ZZWFySUQeC18hRGF0YUJvdW5kZ2QQFQQKLS1TZWxlY3QtLQoyMDIyLTIwMjMgCjIwMjEtMjAyMiAKMjAyMC0yMDIxIBUEATABMwEyATEUKwMEZ2dnZxYBAgFkAgEPZBYCZg9kFgICAQ9kFgJmD2QWAgIBDxBkZBYAZAIJDw8WAh4EVGV4dAULMjEtRGVjLTIwMjJkZGRNFnjIr6XkALvRNAqf0qTwYbOnktY+ymVzVCE5XKOsLw==">
+    </div>
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    var theForm = document.forms['aspnetForm'];
+    if (!theForm) {
+        theForm = document.aspnetForm;
+    }
+    function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+    //]]>
+    </script>
+    
+    
+    <script src="/AccSoft/WebResource.axd?d=KVvK6UPlbmbn8znR2pyhG9SFiWdtNGGb-5WHkPbV3dXxbWAXEqLXHyBg3vrdZU1mgpQQVzFpxqKJ-tcR3X0vjUtT6HlabRUI_4I028qW2jE1&amp;t=637986709362431517" type="text/javascript"></script>
+    
+    
+    <script src="/AccSoft/ScriptResource.axd?d=zCbYR4lYEub-wgyzlR8azN2iQ19sLzMwBKkhiJEpN-BmfpThxA_tf2qnU-fz1n_DYJg4YlIRScuEy5tU85S630ZCbCBuQQNJok6lBzBLLWzzGP4nv0UOI5Cn0Hyn81yfywi7i9tTtgnjmeDZBTSAdcA4l_KeoCf26zF0kPMPRH81&amp;t=125d5fef" type="text/javascript"></script>
+    <script src="/AccSoft/ScriptResource.axd?d=9ZKVIkaQ66_E82dvL7a0n6oiIRkrLE74i5e6BR4zOMiW5upSzycGC0L480o1JINNwvAoyuXinRwV9wvHZfbx3hCOlycnSdmgBxiOIFvM3YKmgD_1rX1gZcjxRiqg8Y4A0&amp;t=3a1336b1" type="text/javascript"></script>
+    <script src="/AccSoft/ScriptResource.axd?d=IgAPnWKEASgyGKQYjDFNlNTO0tK3nLMVQ126K4TDZT5qt_lZicoa-8OR57uPg78Cv-DGNqJpYGOis5OK0sj22mUVKjt8t0g_Pm_--noftJ55OUk_MeC0Kr8G03g5N9nIgPI80MYYJZ-JsV-K-u4Gmw2&amp;t=3a1336b1" type="text/javascript"></script>
+    <script src="Scripts/DateValidate.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+    function WebForm_OnSubmit() {
+    if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+    return true;
+    }
+    //]]>
+    </script>
+    
+    <div>
+    
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7632F5F3">
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAnlJF8Idk94qEPHj5SAbnUPseDjO4OjzzusyZ26WwJoA+zQjwyf5g+4ezBNg2ywlcSjjWGi3txshLAmmT4JdN7fK07E9QiEVcg0FYyK8QuVpoODxP24oSCS7D+CpT9vdzVWRY5uqcphA2smPJPFzLHn+mo9SV2v/SHtiocBMWq7cO7ou5vayuKtr5/nHS8pGkWsdi92m9WLDq6Pk1KBMREApqPZ1Tpk4pOxrBFcBeb6NQ==">
+    </div>
+        <div style="background-color: #d2d6de !important;">
+            <script type="text/javascript">
+    //<![CDATA[
+    Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'aspnetForm', ['tctl00$cph1$UPType','','tctl00$cph1$UpdatePanel5','','tctl00$cph1$UpdatePanel7','','tctl00$cph1$UpdatePanel4',''], [], [], 90, 'ctl00');
+    //]]>
+    </script>
+    
+            <table class="MainTable1" align="center" width="1000px" cellpadding="0" cellspacing="0" style="margin-top: 0px; background-color: #d2d6de !important;">
+                <tbody><tr>
+                    <td align="center" class="tblheader" style="background-color: #d2d6de !important;">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="sp1" style="background-color: #d2d6de !important;">
+                            <!--<tr>
+                                <td class="loginheadr">
+                                    <img src="images/logo.jpg" id="ctl00_Img1" />
+                                    <div class="home-btnonindex">
+                                        <a href="Login.aspx">Home</a></div>
+                                </td>
+                            </tr>-->
+                            <tbody><tr>
+                                <td height="1px">
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td height="10">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top" align="center" style="background-color: #d2d6de !important;">
+                        
+        <div id="login-home" class="frame form-signin">
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr id="ctl00_cph1_trAcc">
+        <td class="MyHead">
+                        <span>
+                            <img src="images/Logo-login-window.png"></span>
+                        <h1>
+                            AccSoft 2.0 Login</h1>
+                    </td>
+    </tr>
+    
+                
+                
+                
+                
+                
+                <tr id="ctl00_cph1_trLogoCommon">
+        <td style="text-align: center;">
+                        <span>
+                            <img src="images/ies_icon1.png" id="ctl00_cph1_imglogocommon" style="min-width: 100px;
+                                min-height: 100px; max-width: 250px; max-height: 150px;"></span>
+                    </td>
+    </tr>
+    
+                <tr>
+                    <td align="left" valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" class="log-container">
+                            <tbody><tr>
+                                <td align="center" valign="middle" style="height: 30px;" colspan="3">
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="select-type" align="center">
+                                    
+                                    <div id="ctl00_cph1_UPType">
+        
+                                            <table id="ctl00_cph1_rdbtnlType" cellspacing="2" border="0">
+            <tbody><tr>
+                <td><input id="ctl00_cph1_rdbtnlType_0" type="radio" name="ctl00$cph1$rdbtnlType" value="2" checked="checked"><label for="ctl00_cph1_rdbtnlType_0">Parent / Student</label></td><td></td>
+            </tr>
+        </tbody></table>
+                                        
+    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="login-details">
+                                        <div id="ctl00_cph1_UpdatePanel5">
+        
+                                                <table id="ctl00_cph1_trParents" border="0" cellpadding="0" cellspacing="0">
+            <tbody><tr>
+                <td>
+                                                            <!--<span class="lebel-form">Login Name</span>-->
+                                                            <p>
+                                                                
+                                                                <input type="hidden" name="ctl00$cph1$hdnSID" id="ctl00_cph1_hdnSID">
+                                                                <input type="hidden" name="ctl00$cph1$hdnSNO" id="ctl00_cph1_hdnSNO">
+                                                                <input type="hidden" name="ctl00$cph1$hdnRDURL" id="ctl00_cph1_hdnRDURL">
+                                                                <input name="ctl00$cph1$txtStuUser" type="text" maxlength="30" id="ctl00_cph1_txtStuUser" class="mybox" placeholder="Login name" autocomplete="off" style="width:230px;">
+                                                                <span class="req-ind">
+                                                                    <span id="ctl00_cph1_RequiredFieldValidator5" style="color:Red;visibility:hidden;">*</span></span></p>
+                                                        </td>
+            </tr>
+            <tr>
+                <td>
+                                                            <!--<span class="lebel-form">Password</span>-->
+                                                            <p>
+                                                                
+                                                                <input name="ctl00$cph1$txtStuPsw" type="password" maxlength="20" id="ctl00_cph1_txtStuPsw" class="mybox" placeholder="Password" autocomplete="off" style="width:230px;">
+                                                                <span class="req-ind">
+                                                                    <span id="ctl00_cph1_RequiredFieldValidator6" style="color:Red;visibility:hidden;">*</span></span>
+                                                            </p>
+                                                        </td>
+            </tr>
+            <tr>
+                <td colspan="3" style="text-align: right;">
+                                                            
+                                                        </td>
+            </tr>
+            <tr>
+                <td>
+                                                            <div class="logitab1">
+                                                                <input type="submit" name="ctl00$cph1$btnStuLogin" value="Login >>" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cph1$btnStuLogin&quot;, &quot;&quot;, true, &quot;Stu&quot;, &quot;&quot;, false, false))" id="ctl00_cph1_btnStuLogin" class="mybut"></div>
+                                                            
+                                                            <div class="logitab2">
+                                                                
+                                                                <a href="ForgetPasswd.aspx?Type=S" id="ctl00_cph1_A1">Forgot Password? </a>
+                                                            </div>
+                                                            <div id="ctl00_cph1_SignUp" class="logitab3">
+                                                                <a href="Parents/ParentSingUp.aspx" id="ctl00_cph1_stuhref">SignUp (New User)</a>
+                                                            </div>
+                                                            <div class="ruler">
+                                                            </div>
+                                                        </td>
+            </tr>
+            <tr>
+                <td>
+                                                            <div id="ctl00_cph1_UpdatePanel7">
+                    
+                                                                    
+                                                                
+                </div>
+                                                        </td>
+            </tr>
+        </tbody></table>
+        
+                                            
+    </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">
+                                    <div class="login-details first">
+                                        <div id="ctl00_cph1_UpdatePanel4">
+        
+                                                
+                                            
+    </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" class="sp1">
+            <tbody><tr>
+                <td class="line5px" style="padding-left: 180px; padding-top: 10px; padding-bottom: 10px;">
+                    A Product For Educational Institute By <a href="http://emperor-solutions.com/" target="_blank" style="font-weight: bold; text-decoration: underline; color: #FFFFFF">Emperor Solutions
+                        Pvt. Ltd.</a>
+                </td>
+                <td class="line5px" align="right" style="padding-right: 180px;">
+                    Updated On :
+                    <span id="ctl00_VersionInfoLBL">21-Dec-2022</span>
+                </td>
+            </tr>
+        </tbody></table>
+        
+    <script type="text/javascript">
+    //<![CDATA[
+    var Page_Validators =  new Array(document.getElementById("ctl00_cph1_RequiredFieldValidator5"), document.getElementById("ctl00_cph1_RequiredFieldValidator6"));
+    //]]>
+    </script>
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    var ctl00_cph1_RequiredFieldValidator5 = document.all ? document.all["ctl00_cph1_RequiredFieldValidator5"] : document.getElementById("ctl00_cph1_RequiredFieldValidator5");
+    ctl00_cph1_RequiredFieldValidator5.controltovalidate = "ctl00_cph1_txtStuUser";
+    ctl00_cph1_RequiredFieldValidator5.focusOnError = "t";
+    ctl00_cph1_RequiredFieldValidator5.errormessage = "*";
+    ctl00_cph1_RequiredFieldValidator5.validationGroup = "Stu";
+    ctl00_cph1_RequiredFieldValidator5.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+    ctl00_cph1_RequiredFieldValidator5.initialvalue = "";
+    var ctl00_cph1_RequiredFieldValidator6 = document.all ? document.all["ctl00_cph1_RequiredFieldValidator6"] : document.getElementById("ctl00_cph1_RequiredFieldValidator6");
+    ctl00_cph1_RequiredFieldValidator6.controltovalidate = "ctl00_cph1_txtStuPsw";
+    ctl00_cph1_RequiredFieldValidator6.focusOnError = "t";
+    ctl00_cph1_RequiredFieldValidator6.errormessage = "*";
+    ctl00_cph1_RequiredFieldValidator6.validationGroup = "Stu";
+    ctl00_cph1_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+    ctl00_cph1_RequiredFieldValidator6.initialvalue = "";
+    //]]>
+    </script>
+    
+    
+    <script type="text/javascript">
+    //<![CDATA[
+    
+    var Page_ValidationActive = false;
+    if (typeof(ValidatorOnLoad) == "function") {
+        ValidatorOnLoad();
+    }
+    
+    function ValidatorOnSubmit() {
+        if (Page_ValidationActive) {
+            return ValidatorCommonOnSubmit();
+        }
+        else {
+            return true;
+        }
+    }
+            
+    document.getElementById('ctl00_cph1_RequiredFieldValidator5').dispose = function() {
+        Array.remove(Page_Validators, document.getElementById('ctl00_cph1_RequiredFieldValidator5'));
+    }
+    
+    document.getElementById('ctl00_cph1_RequiredFieldValidator6').dispose = function() {
+        Array.remove(Page_Validators, document.getElementById('ctl00_cph1_RequiredFieldValidator6'));
+    }
+    //]]>
+    </script>
+    </form>
+    
+    
+    </body>
+</body>
+</html>
